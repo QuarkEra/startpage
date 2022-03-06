@@ -1,72 +1,80 @@
 #header {
-	align-self: flex-end;
-	color: white;
-	padding-right: 5%;
+  align-self: flex-end;
+  color: white;
+  padding-right: 5%;
 }
 
 .rainbow-underline {
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
-	border-bottom: 1px solid;
-	border-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-	border-image-slice: 1;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  border-image-slice: 1;
 }
 
 body {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-	background-color: rgb(0,128,128);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: rgb(0,128,128);
 }
 
 #content {
-	display: flex;
-	flex: 1;
-	align-items: flex-end;
-}
-
-.link-cols {
-	display: flex;
-    align-items: flex-end;
-	justify-content: space-around;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: auto;
 }
 
 .container {
-	display: flex;
-    flex-direction: column;
-	padding: 24px;
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+  background-color: rgb(214, 211, 206);
+  border: 3px solid;
+  border-top-color: gainsboro;
+  border-right-color: #989898;
+  border-bottom-color: #989898;
+  border-left-color: gainsboro;
 }
 
 .container-title {
-	font-size: 12px;
-	color: white;
-	background-image: linear-gradient(to right, #0a286f, #1183ce);
-	padding: 6px;
+  font-size: 12px;
+  color: white;
+  background-image: linear-gradient(to right, #0a286f, #1183ce);
+  padding: 6px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .container-list {
-	list-style: none;
+  list-style: none;
 }
 
 h1 {
-    margin: 24px 0px 0px 0px;
+  margin: 24px 0px 0px 0px;
+}
+
+ul {
+  padding-left: 0px;
 }
 
 li {
-	margin: 3px;
-	text-decoration: none;
-	border: 3px solid;
-    border-top-color: gainsboro;
-    border-right-color: #989898;
-    border-bottom-color: #989898;
-    border-left-color: gainsboro;
-	background-color: rgb(214, 211, 206);
-	padding: 3px;
+  margin: 3px;
+  text-decoration: none;
+  border: 3px solid;
+  border-top-color: gainsboro;
+  border-right-color: #989898;
+  border-bottom-color: #989898;
+  border-left-color: gainsboro;
+  background-color: rgb(214, 211, 206);
+  padding: 8px;
 }
 
 .link {
-	text-decoration: none;
-	color: black;
-	font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
