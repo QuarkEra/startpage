@@ -22,8 +22,8 @@ body {
 
 #content {
   display: flex;
-  flex-direction: column;
   flex: 1;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   width: auto;
@@ -78,4 +78,10 @@ li {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+@media (min-width: 600px) {
+  .content {
+      flex-wrap: nowrap;
+    }
 }
