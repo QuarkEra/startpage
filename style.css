@@ -74,6 +74,13 @@ li {
   padding: 8px;
 }
 
+li:hover {
+  background-color: gainsboro;
+}
+li:active {
+  background-color: #989898;
+}
+
 .link {
   text-decoration: none;
   color: black;
